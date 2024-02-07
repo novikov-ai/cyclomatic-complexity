@@ -143,7 +143,6 @@ func (im *InventoryManager) updateQuantity(product *Product, newQuantity int) er
 
 ## Methods used
 
-- remove else <-
-- polymorphism <-
-- remove null
-- table logic
+- removed else cases
+- removed switch/cases
+- encapsulated processing logic into separated functions
