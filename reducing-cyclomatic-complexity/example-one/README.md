@@ -88,7 +88,7 @@ func processPayPall(order Order) Order {
 
 ## Methods used
 
-- remove else <-
-- polymorphism 
-- remove null <- 
-- table logic
+- removed pointer and nil check
+- removed else cases
+- removed switch/cases 
+- encapsulated processing logic into separated functions
