@@ -67,7 +67,7 @@ func validUser(newUser *User) bool {
 
 ## Methods used
 
-- remove else <-
-- polymorphism <- 
-- remove null
-- table logic
+- removed nil check
+- changed another data structure for Users
+- removed for loop
+- encapsulated processing logic into separated functions
